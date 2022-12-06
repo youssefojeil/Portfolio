@@ -68,4 +68,18 @@ background: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, F
 
 .black-text {
     color: black;
+    z-index: 100;
+}
+
+.carousel-caption-custom {
+    bottom: -1.75rem;
+    position: absolute;
+    right: 15%;
+    /* bottom: 1.25rem; */
+    left: 15%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: #fff;
+    text-align: center;
+    font: bolder;
 }
