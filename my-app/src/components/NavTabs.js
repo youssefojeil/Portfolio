@@ -13,7 +13,7 @@ function NavTabs({ currentPage, handlePageChange }) {
         <ul className="nav nav-custom">
           <li className="nav-item">
             <a href="#home" onClick={() => handlePageChange('Home')}
-              className={currentPage === 'Home' ? 'nav-link black-text' : 'nav-link'}>
+              className={currentPage === 'Home' ? 'nav-link disabled black-text' : 'nav-link'}>
               About Me
             </a>
           </li>

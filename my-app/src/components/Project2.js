@@ -6,45 +6,44 @@ import lostboy from '../images/lostboy.png';
 export default function Project() {
   return (
     <div className='container'>
-        <div id="carouselExampleFade" className="carousel slide carousel-fade" data-bs-ride="carousel">
-            <div className="carousel-inner rounded shadow-lg">
-                <div className="carousel-item active ">
-                    <a href='https://github.com/joseobm92/MVC-cryptofolio' target='_blank' rel="noopener noreferrer"> 
-                        <img src={cryptofolio} className="d-block w-100 " alt="..."/>
-                    </a>
-                    <div className="d-none d-md-block black-text carousel-caption-custom">
-                        <h5 className='black-text'>Cryptofolio</h5>
-                        <p className='black-text'> A cryptocurrency portfolio tracker geared towards beginners</p>
+        <div className='row my-2'>
+            <div className='col'>
+                <a href='https://radiant-lowlands-48817.herokuapp.com/' target='_blank' rel="noopener noreferrer">
+                    <div class="card text-bg-dark">
+                        <img src={cryptofolio} className="card-img custom-opacity" alt="..."/>
+                        <div class="card-img-overlay">
+                            <h5 class="card-title">Cryptofolio</h5>
+                            <p class="card-text">A cryptocurrency portfolio tracker geared towards beginners</p>
+                            <p class="card-text">who are interested in exploring the space</p>
+                        </div>
                     </div>
-                </div>
-                <div className="carousel-item">
-                    <a href='https://joseobm92.github.io/Travel-Buddy/' target='_blank' rel="noopener noreferrer"> 
-                        <img src={travelbuddy} className="d-block w-100 " alt="..."/>
-                    </a>
-                    <div className="d-none d-md-block carousel-caption-custom">
-                        <h3> Travel Buddy </h3>
-                        <p> An app that tracks flight status and weather data, built for travelers</p>
+                </a>
+            </div>  
+        </div>
+        <div className='row my-2'>
+            <div className='col-md-6'>
+                <a href='https://joseobm92.github.io/Travel-Buddy/' target='_blank' rel="noopener noreferrer">
+                    <div class="card text-bg-dark">
+                        <img src={travelbuddy} className="card-img custom-opacity custom-height" alt="..."/>
+                        <div class="card-img-overlay">
+                            <h5 class="card-title">Travel Buddy</h5>
+                            <p class="card-text">The perfect Flight and Weather tracking tool built for travelers</p>
+                        </div>
                     </div>
-                    
-                </div>
-                <div className="carousel-item">
-                    <a href='https://www.lostboy.io/' target='_blank' rel="noopener noreferrer"> 
-                        <img src={lostboy} className="d-block w-100 " alt="..."/>
-                    </a>
-                    <div className="d-none d-md-block carousel-caption-custom">
-                        <h3> LOSTBOY </h3>
-                        <p>A lifestyle brand utilzing music & web3 technology to raise Mental Health Awareness</p>    
-                    </div>
-                </div>
+                </a>
             </div>
-            <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
-                <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span className="visually-hidden">Previous</span>
-            </button>
-            <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
-                <span className="carousel-control-next-icon" aria-hidden="true"></span>
-                <span className="visually-hidden">Next</span>
-            </button>
+            <div className='col-md-6'>
+                <a href='https://www.lostboy.io/' target='_blank' rel="noopener noreferrer">
+                    <div class="card text-bg-dark">
+                        <img src={lostboy} className="card-img custom-opacity custom-height" alt="..."/>
+                        <div class="card-img-overlay">
+                            <h5 class="card-title mt-4">LOSTBOY</h5>
+                            <p class="card-text">A lifestyle brand using web3 technology and music to raise Mental Health Awareness</p>
+
+                        </div>
+                    </div>
+                </a>
+            </div>    
         </div>
     </div>
   );

@@ -5,12 +5,12 @@ export default function Home() {
   return (
     <div className='container'>
       <div className='row  mt-4'>
-          <div className='col my-4'>
+          <div className='col-md-5 my-4'>
               <img className='rounded-circle' src={profilePic} alt='profile-pic'>
 
               </img>
           </div>
-          <div className='col'>
+          <div className='col-md-5'>
           <h1 className='my-4'>About Me</h1>
             <p className='my-4'>
               Hello! My name is Youssef Ojeil, I am a Full Stack Developer with a background in Electrical Engineering. I graduated from UCF with a Bachelor in Electrical Engineering in 2016.
