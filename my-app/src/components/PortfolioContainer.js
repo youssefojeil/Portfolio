@@ -4,7 +4,6 @@ import Home from './Pages/Home';
 import Portfolio from './Pages/Portfolio';
 import Contact from './Pages/Contact';
 import Resume from './Pages/Resume';
-import Header from './Header';
 import Footer from './Footer';
 
 export default function PortfolioContainer() {
@@ -33,10 +32,9 @@ export default function PortfolioContainer() {
 
   return (
     <div>
-      {/* passing currentpage and the handler as props to NavTabs Component*/}
       <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
-      {/* Renders the current page */}
       {renderPage()}
+      <Footer/>
     </div>
   );
 }

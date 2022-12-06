@@ -1,0 +1,23 @@
+.social-media-icons a{
+    color: black;
+    font-size: 2rem;
+}
+
+/* .nav-custom a {
+    color: white;
+    background-color: black;
+} */
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    line-height: 70px;
+}
+
+
+.social-media-icons a:hover{
+    color: gray;
+    font-size: 2rem;
+}
