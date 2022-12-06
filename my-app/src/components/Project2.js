@@ -5,10 +5,10 @@ import lostboy from '../images/lostboy.png';
 
 export default function Project() {
   return (
-    <div className='container fluid'>
+    <div className='container'>
         <div id="carouselExampleFade" className="carousel slide carousel-fade" data-bs-ride="carousel">
             <div className="carousel-inner rounded shadow-lg">
-                <div className="carousel-item active carousel-img">
+                <div className="carousel-item active ">
                     <a href='https://github.com/joseobm92/MVC-cryptofolio' target='_blank' rel="noopener noreferrer"> 
                         <img src={cryptofolio} className="d-block w-100 " alt="..."/>
                     </a>
@@ -17,7 +17,7 @@ export default function Project() {
                         <p className='black-text'> A cryptocurrency portfolio tracker geared towards beginners</p>
                     </div>
                 </div>
-                <div className="carousel-item carousel-img">
+                <div className="carousel-item">
                     <a href='https://joseobm92.github.io/Travel-Buddy/' target='_blank' rel="noopener noreferrer"> 
                         <img src={travelbuddy} className="d-block w-100 " alt="..."/>
                     </a>
@@ -27,7 +27,7 @@ export default function Project() {
                     </div>
                     
                 </div>
-                <div className="carousel-item carousel-img">
+                <div className="carousel-item">
                     <a href='https://www.lostboy.io/' target='_blank' rel="noopener noreferrer"> 
                         <img src={lostboy} className="d-block w-100 " alt="..."/>
                     </a>

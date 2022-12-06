@@ -10,28 +10,28 @@ function NavTabs({ currentPage, handlePageChange }) {
           Youssef Ojeil
         </h1>
 
-        <ul className="nav nav-pills nav-custom">
+        <ul className="nav nav-custom">
           <li className="nav-item">
             <a href="#home" onClick={() => handlePageChange('Home')}
-              className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}>
+              className={currentPage === 'Home' ? 'nav-link black-text' : 'nav-link'}>
               About Me
             </a>
           </li>
           <li className="nav-item">
             <a href="#portfolio" onClick={() => handlePageChange('Portfolio')}          
-              className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'}>
+              className={currentPage === 'Portfolio' ? 'nav-link black-text' : 'nav-link'}>
               Portfolio
             </a>
           </li>
           <li className="nav-item">
             <a href="#contact" onClick={() => handlePageChange('Contact')}
-              className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}>
+              className={currentPage === 'Contact' ? 'nav-link black-text' : 'nav-link'}>
               Contact
             </a>
           </li>
           <li className="nav-item">
             <a href="#resume" onClick={() => handlePageChange('Resume')}
-              className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}>
+              className={currentPage === 'Resume' ? 'nav-link black-text' : 'nav-link'}>
               Resume
             </a>
           </li>
