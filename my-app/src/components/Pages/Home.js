@@ -41,6 +41,7 @@ export default function Home() {
                 <li className="list-group-item">Sports</li>
                 <li className="list-group-item">Gaming</li>
                 <li className="list-group-item">Anime</li>
+                <li className="list-group-item">Fluent in English Arabic and French</li>
             </ul>
 
             
