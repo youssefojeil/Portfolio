@@ -5,6 +5,7 @@ export default function Resume() {
     <div className='container'>
     <h1 className= "row justify-content-center">Resume</h1>
     <h2 className= "row justify-content-center">Full Stack Developer</h2>
+    <p className= "row justify-content-center" >2022-Present</p>  
       <div className='row justify-content-center my-2'>
           <div className='col-sm-4 p-3 m-4 border-0 rounded shadow-lg'>
             <h3 className='my-2 row justify-content-center '>Front-End</h3>
@@ -31,6 +32,7 @@ export default function Resume() {
           </div>
       </div>
       <h2 className= "row justify-content-center">Web3 & Blockchain</h2>
+      <p className= "row justify-content-center" >2021-Present</p>
       <div className='row justify-content-center my-2'>
           <div className='col-8 p-3 m-4 border-0 rounded shadow-lg'>
             <h3 className='my-2 row justify-content-center '>CTO</h3>
@@ -43,6 +45,7 @@ export default function Resume() {
           </div>
       </div>
       <h2 className= "row justify-content-center" >Electrical Engineer</h2>
+      <p className= "row justify-content-center" >2017-2021</p>
       <div className='row justify-content-center my-2'>
           <div className='col-sm-4 p-3 m-4 border-0 rounded shadow-lg'>
             <h3 className='my-2 row justify-content-center'>Product Engineer</h3>

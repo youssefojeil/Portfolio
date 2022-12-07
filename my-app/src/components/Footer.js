@@ -5,7 +5,7 @@ import { faLinkedin, faGithub, faTwitter } from '@fortawesome/free-brands-svg-ic
 function Footer() {
 
     return (
-            <div className='container mt-5'>
+            <div className='container mt-5 mb-3'>
                 <div className='row'>
                     <div className='col'>
                         <span className=''> ©Copyright {new Date().getFullYear()}</span>

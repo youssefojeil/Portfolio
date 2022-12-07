@@ -6,7 +6,7 @@ export default function Home() {
     <div className='container'>
       <div className='row  mt-4'>
           <div className='col-md-5 my-4'>
-              <img className='rounded-circle' src={profilePic} alt='profile-pic'>
+              <img className='rounded shadow-lg' src={profilePic} alt='profile-pic'>
 
               </img>
           </div>

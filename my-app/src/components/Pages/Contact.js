@@ -5,6 +5,7 @@ export default function Contact() {
     <div className='container'>
       <h1>Contact Me</h1>
       <div className='row'>
+      
         <div className="mb-4">
           <label for="exampleFormControlInput1" className="form-label">Name</label>
           <input type="text" className="form-control" id="exampleFormControlName" placeholder="Jon Doe"/>

@@ -1,11 +1,10 @@
 import React from 'react';
-import Project from '../Project';
-import ProjectTest from '../Project2'
+import Project from '../Project'
 
 export default function Portfolio() {
   return (
     <div>
-      <ProjectTest/>
+      <Project/>
     </div>
   );
 }
